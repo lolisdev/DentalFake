@@ -1,0 +1,17 @@
+#logo{
+    height: 100px;
+    width: 100px;
+}
+
+.cimg{
+    height: 600px;
+    width: 100%;
+}
+
+.cimg2{
+    height: 200px;
+}
+
+body{
+    background-color: rgb(223, 234, 235);
+}
