@@ -1,17 +1,93 @@
+/*
+<div class="row pt-5 pb-5">
+        <div class="col-6 offset-4">
+            <div id="logotipo" class="d-flex">
+                <div id="logoA" class="">
+                    <div id="logoB" class="">
+                        <div id="logoC" class="">
+                            <div id="logoD" class="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+#logotipo{
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+
+}
+
+#logoA{
+    --color1: rgba(115, 110, 148, 0.356);
+    --color2: rgb(89, 124, 82);
+    --color3: rgb(87, 83, 139);
+    margin: auto;
+    width: 60px;
+    height: 80px;
+    border-left: 20px solid;
+    border-bottom: 20px solid;
+
+    border-image: linear-gradient(150deg, var(--color1), var(--color2), var(--color3));
+    border-image-slice: 1;
+}
+
+#logoB{
+    --color1: rgb(180, 180, 180);
+    --color2: rgb(80, 80, 80);
+    width: 40px;
+    height: 60px;
+    border-top: 20px solid;
+    border-left: 20px solid;
+    border-bottom: 20px solid;
+    border-image: linear-gradient(150deg, var(--color1), var(--color2));
+    border-image-slice: 1;
+}
+*/
+
+.container-fluid{
+    font-family: 'Montserrat';
+}
+
+
 #logo{
     height: 100px;
     width: 100px;
 }
 
-.cimg{
-    height: 600px;
-    width: 100%;
+#header{
+    background-color: #ffffff;
 }
 
-.cimg2{
+.btmenu{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-cor1{
+    background-color: rgb(171, 196, 197);
+}
+
+.btmenu:before{
+    content: '';
+    justify-content: center;
+    position: absolute;
+    height: 7px;
+    top: 60px;
+    width: 0px;
+    background: rgb(171, 196, 197);
+    border-radius: 100%;
+    transition: .5s;
+}
+
+.btmenu:hover:before{
+    width: 4%;
+}
+
+.cimgcard{
     height: 200px;
-}
-
-body{
-    background-color: rgb(223, 234, 235);
 }
