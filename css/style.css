@@ -51,16 +51,12 @@
 
 .container-fluid{
     font-family: 'Montserrat';
+    padding: 0;
 }
-
 
 #logo{
     height: 100px;
     width: 100px;
-}
-
-.todatela{
-    width: 100%;
 }
 
 #header{
